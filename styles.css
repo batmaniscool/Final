@@ -9,7 +9,8 @@ header{
 header ul{
   margin: 0;
   padding: 0;
-  list-style-type: none;  margin-inline-start: 50px;
+  list-style-type: none;
+  margin-inline-start: 50px;
 }
 header li{
   display: inline-block;
@@ -231,9 +232,9 @@ footer{
   clear:both;
   position: absolute; 
   display: inline-flex;
-  text-indent: -4242424242px;
+  /* text-indent: -4242424242px; */
 }
-footer .fb{
+.fb{
   background-image: url("images/facebook.png");
   background-color: #3B4252;
   background-size: 100%;
@@ -241,9 +242,12 @@ footer .fb{
   width: 50px;
   margin-top: 10px;
   margin-left: 10px;
-  /* background-color: brown; */
   background-repeat: no-repeat;
   border-radius: 30%;
+}
+.fb a{
+  color: transparent;
+  font-size: 50px;
 }
 .insta{
   background-image: url("images/instagram.png");
@@ -253,10 +257,13 @@ footer .fb{
   width: 50px;
   margin-top: 10px;
   margin-left: 10px;
-  /* background-color: brown; */
   background-repeat: no-repeat;
   /* text-indent: -4242424242px; */
   border-radius: 30%;
+}
+.insta a{
+  color: transparent;
+  font-size: 50px;
 }
 .twit{
   background-image: url("images/twitter.png");
@@ -266,18 +273,21 @@ footer .fb{
   width: 50px;
   margin-top: 10px;
   margin-left: 10px;
-  /* background-color: brown; */
   background-repeat: no-repeat;
   /* text-indent: -4242424242px; */
   border-radius: 30%;
 }
-footer .fb:hover{
+.twit a{
+  color: transparent;
+  font-size: 50px;
+}
+.fb:hover{
   background-image: url("images/facebook_hover.png");
 }
-footer .insta:hover{
+.insta:hover{
   background-image: url("images/instagram_hover.png");
 }
-footer .twit:hover{
+.twit:hover{
   background-image: url("images/twitter_hover.png");
 }
 
