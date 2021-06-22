@@ -10,11 +10,10 @@ header ul{
   margin: 0;
   padding: 0;
   list-style-type: none;
-  margin-inline-start: 50px;
+  /* margin-inline-start: 30px; */
 }
 header li{
   display: inline-block;
-  width: auto;
   margin: 25px 10px;
 }
 header li a{
@@ -36,25 +35,30 @@ header .logo a{
   height: 50px;
   width: 50px;
   margin-top: 10px;
-  margin-left: 10px;
+  margin-left: 0px;
   background-repeat: no-repeat;
   text-indent: -4242424242px;
   position: fixed;
   border-radius: 50%;
 }
+nav{
+  margin-left: auto;
+  margin-right: auto;
+  width: 590px;
+}
 
 /*  body section */
 body{
   font-family: Georgia;
-  min-height:100%; 
-  position:relative; 
+  min-height: 100%; 
+  position: relative; 
   padding-bottom: 80px;
 }
 h1{
   margin-left: 0px;
 }
 section{
-  background:whitesmoke;
+  background: whitesmoke;
   color: black;
   padding: 10px;
 }
@@ -180,8 +184,10 @@ p{
 }
 .map{
   width: 500px; 
-  height: 500px;
+  height: 300px;
   border: 1px solid white;
+  margin-left: auto;
+  margin-right: auto;
 }
 input[type=text], select, textarea {
   width: 100%;
@@ -205,18 +211,17 @@ input[type=submit]:hover {
   background-color: white;
   color: #3B4252;
 }
-.container {
+.container{
   border-radius: 5px;
   background-color: rgb(59, 66, 82);
   padding: 10px;
-  width: fit-content;
+  width: 560px;
   height: fit-content;
   display: block;
   margin-left: auto;
   margin-right: auto;
   color: white;
 }
-
 /*  footer section */
 footer{
   background: #3B4252;
@@ -288,7 +293,6 @@ footer{
 footer ul{
   margin: 0;
   padding: 0;
-  list-style-type: none;
 }
 footer li{
   display: inline-block;
@@ -296,8 +300,8 @@ footer li{
   margin: 25px 10px;
 }
 footer li a{
+  color: white;
   text-decoration: none;
-  color: #3B4252;
   text-transform: uppercase;
   text-align: center;
   font-size: 10px;
@@ -305,7 +309,8 @@ footer li a{
   margin-right: auto;
 }
 footer li a:hover {
-  color: white;
+  color: #3B4252;
+  background-color: rgb(255, 255, 255, 0.5);
 }
 
 /*clear float*/
