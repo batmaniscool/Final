@@ -84,7 +84,7 @@ p{
 }
 .column {
   display: inline-flex;
-  margin: 10px;
+  margin: 5px;
 }
 /* Clear floats after the columns */
 .row:after {
@@ -92,11 +92,17 @@ p{
   display: table;
   clear: both;
 }
+.row{
+  width: 590px;
+  margin-right: auto;
+  margin-left: auto;
+}
 .members{
   color: gray;
-  padding: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   display: flex;
-  background: #3B4252;
+  background-color: #3B4252;
   text-align: center;
   justify-content: center;
   margin: 0;
@@ -115,7 +121,6 @@ p{
   margin-right: 20px;
 }
 .members li a{
-  color: #9A8B74;
   padding: 9px 11px;
   text-decoration: none;
 }
@@ -126,7 +131,6 @@ p{
   background-image: url("images/me.png");
   border: 1px solid white;
   border-radius: 50%;
-  box-shadow: gray 10px;
   background-size: 100%;
   background-color: brown;
   background-repeat: no-repeat;
